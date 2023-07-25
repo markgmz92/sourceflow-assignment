@@ -1,12 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
 import Placeholder from '../asset/Placeholder.png';
+import MarkDown from '../component/MarkDown';
 
 const HomePage = () => {
   return (
-    <div className='container mt-4'>
-      <Image className='mt-4' src={Placeholder} alt='Dummy Image' />
-    </div>
+    <section className='container mt-5 auto'>
+      <div className='d-flex flex-column flex-md-row'>
+        <Image
+          className='img-fluid mt-10'
+          src={Placeholder}
+          alt='Dummy Image'
+        />
+        <MarkDown />
+      </div>
+    </section>
   );
 };
 
