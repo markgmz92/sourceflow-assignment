@@ -1,9 +1,7 @@
-import Image from 'next/image';
+const { default: HomePage } = require('./home/page');
 
-export default function Home() {
-  return (
-    <main>
-      <h1>Hello World</h1>
-    </main>
-  );
-}
+const page = () => {
+  return <HomePage />;
+};
+
+export default page;
