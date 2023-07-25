@@ -5,13 +5,16 @@ import MarkDown from '../component/MarkDown';
 
 const HomePage = () => {
   return (
-    <section className='container mt-5 auto'>
+    <section className='mt-5'>
       <div className='d-flex flex-column flex-md-row'>
-        <Image
-          className='img-fluid mt-10'
-          src={Placeholder}
-          alt='Dummy Image'
-        />
+        <div className='container'>
+          <Image
+            className='img-fluid mx-lg-5 '
+            src={Placeholder}
+            alt='Dummy Image'
+          />
+        </div>
+
         <MarkDown />
       </div>
     </section>
