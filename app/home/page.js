@@ -14,7 +14,6 @@ const HomePage = () => {
             alt='Dummy Image'
           />
         </div>
-
         <MarkDown />
       </div>
     </section>
